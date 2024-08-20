@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Todo List</h1>
+  <div>
+    <ol id="to-do-list">
+      <div id="to-do-1">
+        <li>Take class</li>
+        <button onclick="removeElement('to-do-1')">Delete</button>
+      </div>
+      <div id="to-do-2">
+        <li>Go out to eat</li>
+        <button onclick="removeElement('to-do-2')">Delete</button>
+      </div>
+    </ol>
+    <!-- <div id="to-do-1">
+      <h4>1. Take class</h4>
+     <button onclick="removeElement('to-do-1')">Delete</button>
+    </div>
+    <div id="to-do-2">
+      <h4>2. Go out to eat</h4>
+       <button onclick="removeElement('to-do-2')">Delete</button> -->
+    <!-- </div> -->
+  </div>
+  <input placeholder="sleep" />
+  <button onclick="addElement()">Add Todo</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
